@@ -81,10 +81,14 @@
     <Content Include="AdminPanel\ipregister.aspx" />
     <Content Include="AdminPanel\laborataries.aspx" />
     <Content Include="AdminPanel\outpatient.aspx" />
+    <Content Include="AdminPanel\patientinfo.aspx" />
     <Content Include="AdminPanel\pharmacy.aspx" />
     <Content Include="AdminPanel\receptionhome.aspx" />
     <Content Include="AdminPanel\registration.aspx" />
     <Content Include="AdminPanel\viewappointments.aspx" />
+    <Content Include="AdminPanel\viewoperations.aspx" />
+    <Content Include="AdminPanel\viewsurgeries.aspx" />
+    <Content Include="AdminPanel\viewtests.aspx" />
     <Content Include="Content\Fontawesome\css\all.css" />
     <Content Include="Content\Fontawesome\css\all.min.css" />
     <Content Include="Content\Fontawesome\css\brands.css" />
@@ -1869,46 +1873,6 @@
     <Content Include="Content\Fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="Content\Fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="Content\Fontawesome\svgs\solid\z.svg" />
-    <Content Include="Content\Images\000000265324[1].jpg" />
-    <Content Include="Content\Images\1.jpg" />
-    <Content Include="Content\Images\10.jpg" />
-    <Content Include="Content\Images\11.jpg" />
-    <Content Include="Content\Images\1135642872_330beb809b[1].jpg" />
-    <Content Include="Content\Images\12.jpg" />
-    <Content Include="Content\Images\13.jpg" />
-    <Content Include="Content\Images\14.jpg" />
-    <Content Include="Content\Images\15.jpg" />
-    <Content Include="Content\Images\2.jpg" />
-    <Content Include="Content\Images\20070919_stethoscope[1].jpg" />
-    <Content Include="Content\Images\3.jpg" />
-    <Content Include="Content\Images\4.jpg" />
-    <Content Include="Content\Images\5.jpg" />
-    <Content Include="Content\Images\6.jpg" />
-    <Content Include="Content\Images\7.jpg" />
-    <Content Include="Content\Images\8.jpg" />
-    <Content Include="Content\Images\9.jpg" />
-    <Content Include="Content\Images\admin.gif" />
-    <Content Include="Content\Images\appointments.jpg" />
-    <Content Include="Content\Images\cardiology1.jpg" />
-    <Content Include="Content\Images\contact3.jpg" />
-    <Content Include="Content\Images\discharge.gif" />
-    <Content Include="Content\Images\ecg240x3201.gif" />
-    <Content Include="Content\Images\forgot_pass[1].jpg" />
-    <Content Include="Content\Images\home_05[1].jpg" />
-    <Content Include="Content\Images\Hospital Image.png" />
-    <Content Include="Content\Images\hospital.jpg" />
-    <Content Include="Content\Images\kakinada_img_ban.jpg" />
-    <Content Include="Content\Images\lab1.jpg" />
-    <Content Include="Content\Images\main1.jpg" />
-    <Content Include="Content\Images\medi2[1].jpg" />
-    <Content Include="Content\Images\medical store.gif" />
-    <Content Include="Content\Images\medical_report[1].jpg" />
-    <Content Include="Content\Images\Mp_1000nt_Patient_Monitor[1].jpg" />
-    <Content Include="Content\Images\reception.gif" />
-    <Content Include="Content\Images\ref01_main-pic_patients&amp;car[1].gif" />
-    <Content Include="Content\Images\registration.gif" />
-    <Content Include="Content\Images\reproductive_medicine_img.jpg" />
-    <Content Include="Content\Images\ward.gif" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2010,6 +1974,13 @@
     <Compile Include="AdminPanel\outpatient.aspx.designer.cs">
       <DependentUpon>outpatient.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\patientinfo.aspx.cs">
+      <DependentUpon>patientinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\patientinfo.aspx.designer.cs">
+      <DependentUpon>patientinfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel\pharmacy.aspx.cs">
       <DependentUpon>pharmacy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2038,6 +2009,27 @@
     <Compile Include="AdminPanel\viewappointments.aspx.designer.cs">
       <DependentUpon>viewappointments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\viewoperations.aspx.cs">
+      <DependentUpon>viewoperations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\viewoperations.aspx.designer.cs">
+      <DependentUpon>viewoperations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\viewsurgeries.aspx.cs">
+      <DependentUpon>viewsurgeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\viewsurgeries.aspx.designer.cs">
+      <DependentUpon>viewsurgeries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\viewtests.aspx.cs">
+      <DependentUpon>viewtests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\viewtests.aspx.designer.cs">
+      <DependentUpon>viewtests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Content\HMSMaster.Master.cs">
       <DependentUpon>HMSMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2048,7 +2040,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Images\Thumbs.db" />
     <Content Include="Content\HMSMaster.Master" />
     <Content Include="Content\Fontawesome\less\brands.less" />
     <Content Include="Content\Fontawesome\less\fontawesome.less" />
