@@ -8,8 +8,8 @@
     </h1>
     <asp:Menu ID="Menu1" runat="server">
         <Items>
-            <asp:MenuItem Text="Operation Theater" Value="New Item" NavigateUrl="~/operationth.aspx"></asp:MenuItem>
-            <asp:MenuItem Text="medical Tests" Value="medical Tests" NavigateUrl="~/medicaltests.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Operation Theater" Value="New Item" NavigateUrl="~/AdminPanel/operationth.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="medical Tests" Value="medical Tests" NavigateUrl="~/AdminPanel/medicaltests.aspx"></asp:MenuItem>
         </Items>
     </asp:Menu>
 

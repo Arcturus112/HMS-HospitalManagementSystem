@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPanel\Administration.aspx" />
+    <Content Include="AdminPanel\appointments.aspx" />
     <Content Include="AdminPanel\dischargesummary.aspx" />
     <Content Include="AdminPanel\doctorforgot.aspx" />
     <Content Include="AdminPanel\doctorlogin.aspx" />
@@ -80,11 +81,14 @@
     <Content Include="AdminPanel\home.aspx" />
     <Content Include="AdminPanel\ipregister.aspx" />
     <Content Include="AdminPanel\laborataries.aspx" />
+    <Content Include="AdminPanel\medicaltests.aspx" />
+    <Content Include="AdminPanel\operationth.aspx" />
     <Content Include="AdminPanel\outpatient.aspx" />
     <Content Include="AdminPanel\patientinfo.aspx" />
     <Content Include="AdminPanel\pharmacy.aspx" />
     <Content Include="AdminPanel\receptionhome.aspx" />
     <Content Include="AdminPanel\registration.aspx" />
+    <Content Include="AdminPanel\surgeries.aspx" />
     <Content Include="AdminPanel\viewappointments.aspx" />
     <Content Include="AdminPanel\viewoperations.aspx" />
     <Content Include="AdminPanel\viewsurgeries.aspx" />
@@ -1883,6 +1887,13 @@
     <Compile Include="AdminPanel\Administration.aspx.designer.cs">
       <DependentUpon>Administration.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\appointments.aspx.cs">
+      <DependentUpon>appointments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\appointments.aspx.designer.cs">
+      <DependentUpon>appointments.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel\dischargesummary.aspx.cs">
       <DependentUpon>dischargesummary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1967,6 +1978,20 @@
     <Compile Include="AdminPanel\laborataries.aspx.designer.cs">
       <DependentUpon>laborataries.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\medicaltests.aspx.cs">
+      <DependentUpon>medicaltests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\medicaltests.aspx.designer.cs">
+      <DependentUpon>medicaltests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\operationth.aspx.cs">
+      <DependentUpon>operationth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\operationth.aspx.designer.cs">
+      <DependentUpon>operationth.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel\outpatient.aspx.cs">
       <DependentUpon>outpatient.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2001,6 +2026,13 @@
     </Compile>
     <Compile Include="AdminPanel\registration.aspx.designer.cs">
       <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\surgeries.aspx.cs">
+      <DependentUpon>surgeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\surgeries.aspx.designer.cs">
+      <DependentUpon>surgeries.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\viewappointments.aspx.cs">
       <DependentUpon>viewappointments.aspx</DependentUpon>
