@@ -10,7 +10,7 @@
         <tr>
             <td>Enter Your Login Id</td>
             <td>
-                <asp:TextBox ID="lidtxt" runat="server"  CssClass="form-control"></asp:TextBox></td>
+                <asp:TextBox ID="lidtxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
     </table>
     <table>

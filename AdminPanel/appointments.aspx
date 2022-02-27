@@ -12,35 +12,35 @@
             <td>Patient Id
             </td>
             <td>
-                <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
+                <asp:DropDownList ID="pidddl" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
                 </asp:DropDownList>
             </td>
         </tr>
         <tr>
             <td>Patient Name</td>
             <td>
-                <asp:TextBox ID="pntxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="pntxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Age
             </td>
             <td>
-                <asp:TextBox ID="agtxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="agtxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Department
             </td>
             <td>
-                <asp:TextBox ID="deptxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="deptxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Doctor
             </td>
             <td>
-                <asp:TextBox ID="doctxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="doctxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
     </table>

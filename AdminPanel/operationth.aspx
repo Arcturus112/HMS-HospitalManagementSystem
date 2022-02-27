@@ -11,7 +11,7 @@
             <td>Patient Type
             </td>
             <td>
-                <asp:DropDownList ID="pttypeddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
+                <asp:DropDownList ID="pttypeddl" runat="server" AutoPostBack="True" CssClass="form-control" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
                     <asp:ListItem>...Select...</asp:ListItem>
                     <asp:ListItem>In-Patient</asp:ListItem>
                     <asp:ListItem>Out-Patient</asp:ListItem>
@@ -22,7 +22,7 @@
             <td>Patient Id
             </td>
             <td>
-                <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
+                <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" CssClass="form-control" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
                 </asp:DropDownList>
             </td>
         </tr>
@@ -30,21 +30,21 @@
             <td>Patient Name
             </td>
             <td>
-                <asp:TextBox ID="pntxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="pntxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Refered Doctor
             </td>
             <td>
-                <asp:TextBox ID="doctxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="doctxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Operation Type
             </td>
             <td>
-                <asp:DropDownList ID="optddl" runat="server">
+                <asp:DropDownList ID="optddl" runat="server" CssClass="form-control">
                     <asp:ListItem>...Select...</asp:ListItem>
                     <asp:ListItem>Heart</asp:ListItem>
                     <asp:ListItem>Brain</asp:ListItem>
@@ -57,7 +57,7 @@
             <td>Operation Result
             </td>
             <td>
-                <asp:DropDownList ID="orddl" runat="server" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
+                <asp:DropDownList ID="orddl" runat="server" CssClass="form-control" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
                     <asp:ListItem>...Select...</asp:ListItem>
                     <asp:ListItem>Success</asp:ListItem>
                     <asp:ListItem>Fail</asp:ListItem>

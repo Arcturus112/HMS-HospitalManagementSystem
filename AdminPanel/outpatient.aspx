@@ -12,22 +12,22 @@
         <tr>
             <td><span>Patient Name :</span></td>
             <td>
-                <asp:TextBox ID="pntxt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="pntxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Patient Id :</span></td>
             <td>
-                <asp:TextBox ID="pidtxt" Enabled="false" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="pidtxt" Enabled="false" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Age :</span></td>
             <td>
-                <asp:TextBox ID="agetxt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="agetxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Gender :</span></td>
             <td>
-                <asp:DropDownList ID="gddl" runat="server">
+                <asp:DropDownList ID="gddl" runat="server" CssClass="form-control">
                     <asp:ListItem>Male</asp:ListItem>
                     <asp:ListItem>Female</asp:ListItem>
                 </asp:DropDownList></td>
@@ -35,12 +35,12 @@
         <tr>
             <td><span>Address :</span></td>
             <td>
-                <asp:TextBox ID="addtxt" runat="server" TextMode="MultiLine"></asp:TextBox></td>
+                <asp:TextBox ID="addtxt" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Assigned Doctor :</span></td>
             <td>
-                <asp:DropDownList ID="doctorddl" runat="server" Width="154px">
+                <asp:DropDownList ID="doctorddl" runat="server" CssClass="form-control">
                     <asp:ListItem>Dr.venkateswarao</asp:ListItem>
                     <asp:ListItem>Dr.Ramarao</asp:ListItem>
                     <asp:ListItem>Dr.Teja</asp:ListItem>
@@ -50,23 +50,23 @@
         <tr>
             <td><span>Phoen no(Home) :</span></td>
             <td>
-                <asp:TextBox ID="restxt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="restxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Phone no(mobile) :</span></td>
             <td>
-                <asp:TextBox ID="mobtxt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="mobtxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td><span>Op Date :</span></td>
             <td>
-                <asp:TextBox ID="optxt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="optxt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
 
         <tr>
             <td><span>Department :</span></td>
             <td>
-                <asp:DropDownList ID="depddl" runat="server" Width="154px">
+                <asp:DropDownList ID="depddl" runat="server" CssClass="form-control">
                     <asp:ListItem>Orthopedic</asp:ListItem>
                     <asp:ListItem>Pediatric</asp:ListItem>
                     <asp:ListItem>Neurology</asp:ListItem>

@@ -12,7 +12,7 @@
             <td>Patient Type
             </td>
             <td>
-                <asp:DropDownList ID="pttypeddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
+                <asp:DropDownList ID="pttypeddl" runat="server" AutoPostBack="True" CssClass="form-control" OnSelectedIndexChanged="pttypeddl_SelectedIndexChanged">
                     <asp:ListItem>...Select...</asp:ListItem>
                     <asp:ListItem>In-Patient</asp:ListItem>
                     <asp:ListItem>Out-Patient</asp:ListItem>
@@ -23,7 +23,7 @@
             <td>Patient Id
             </td>
             <td>
-                <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
+                <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" CssClass="form-control" OnSelectedIndexChanged="pidddl_SelectedIndexChanged">
                 </asp:DropDownList>
             </td>
         </tr>
@@ -31,14 +31,14 @@
             <td>Patient Name
             </td>
             <td>
-                <asp:TextBox ID="pntxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="pntxt" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>Medical Test Type
             </td>
             <td>
-                <asp:DropDownList ID="mttddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="mttddl_SelectedIndexChanged">
+                <asp:DropDownList ID="mttddl" runat="server" AutoPostBack="True" CssClass="form-control" OnSelectedIndexChanged="mttddl_SelectedIndexChanged">
                     <asp:ListItem>...Select...</asp:ListItem>
                     <asp:ListItem>Blood Test</asp:ListItem>
                     <asp:ListItem>Urin Test</asp:ListItem>
@@ -55,34 +55,34 @@
                 <td>Blood Group
                 </td>
                 <td>
-                    <asp:TextBox ID="bgtxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="bgtxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Haemoglobin</td>
                 <td>
-                    <asp:TextBox ID="hmtxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="hmtxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Blood sugar 
                 </td>
                 <td>
-                    <asp:TextBox ID="bstxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="bstxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Serum Uric Acid
                 </td>
                 <td>
-                    <asp:TextBox ID="suatxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="suatxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Report Description
                 </td>
                 <td>
-                    <asp:TextBox ID="rd1txt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="rd1txt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
 
@@ -95,41 +95,41 @@
                 <td>Color
                 </td>
                 <td>
-                    <asp:TextBox ID="colortxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="colortxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Clarity</td>
                 <td>
-                    <asp:TextBox ID="clartxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="clartxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Odor 
                 </td>
                 <td>
-                    <asp:TextBox ID="odtxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="odtxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Specific gravity
                 </td>
                 <td>
-                    <asp:TextBox ID="sgtxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="sgtxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Glucose
                 </td>
                 <td>
-                    <asp:TextBox ID="gltxt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="gltxt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>Report Description
                 </td>
                 <td>
-                    <asp:TextBox ID="rd2txt" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="rd2txt" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
             </tr>
 

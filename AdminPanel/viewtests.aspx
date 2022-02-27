@@ -12,7 +12,7 @@
            Test Type :</span> </span>
        </td>
        <td>
-          <asp:DropDownList ID="testddl" runat="server" OnSelectedIndexChanged="pttyddl_SelectedIndexChanged" >
+          <asp:DropDownList ID="testddl" runat="server" CssClass="form-control" OnSelectedIndexChanged="pttyddl_SelectedIndexChanged" >
           </asp:DropDownList>
        </td>
     </tr>
@@ -22,7 +22,7 @@
            Patient Type :</span> </span>
        </td>
        <td>
-          <asp:DropDownList ID="pttyddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="pttyddl_SelectedIndexChanged" >
+          <asp:DropDownList ID="pttyddl" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="pttyddl_SelectedIndexChanged" >
           </asp:DropDownList>
        </td>
     </tr>
@@ -33,7 +33,7 @@
            Patient Id :</span> </span>
        </td>
        <td>
-          <asp:DropDownList ID="pidddl" runat="server" AutoPostBack="True" >
+          <asp:DropDownList ID="pidddl"  CssClass="form-control" runat="server" AutoPostBack="True" >
           </asp:DropDownList>
        </td>
     </tr>
@@ -41,7 +41,7 @@
     </table>
     <asp:Button ID="appbtn" runat="server" Text="View TestReorts" OnClick="appbtn_Click" />
     <div>
-    <asp:GridView ID="GridView1" runat="server"  BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
+    <asp:GridView ID="GridView1" runat="server"  BackColor="White" CssClass="form-control" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
         <FooterStyle BackColor="#CCCCCC" />
         <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
         <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />

@@ -11,7 +11,7 @@
             <td>
                 <span>PatientvType:</span></td>
             <td>
-                <asp:DropDownList ID="ptntyp" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged">
+                <asp:DropDownList ID="ptntyp" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged">
                     <asp:ListItem>...select...</asp:ListItem>
                     <asp:ListItem>In-Patient</asp:ListItem>
                     <asp:ListItem>Out-Patient</asp:ListItem>
@@ -21,26 +21,26 @@
             <td>
                 <span>PatientID:</span></td>
             <td>
-                <asp:DropDownList ID="ptntid" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                <asp:DropDownList ID="ptntid" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                 </asp:DropDownList></td>
         </tr>
         <tr>
             <td>
                 <span>Department:</span></td>
             <td>
-                <asp:TextBox ID="dpt" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="dpt" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td>
                 <span>Patient Name:</span></td>
             <td>
-                <asp:TextBox ID="ptntname" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="ptntname" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td>
                 <span>Medicine Used:</span></td>
             <td>
-                <asp:TextBox ID="mdcnusd" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="mdcnusd" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td></td>

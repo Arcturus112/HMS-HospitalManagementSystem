@@ -11,26 +11,26 @@
             <td>
                 <span>Enter Patient ID:</span></td>
             <td>
-                <asp:DropDownList ID="PID" runat="server" AutoPostBack="True" OnSelectedIndexChanged="PID_SelectedIndexChanged">
+                <asp:DropDownList ID="PID" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="PID_SelectedIndexChanged">
                 </asp:DropDownList></td>
         </tr>
         <tr>
             <td>
                 <span>Patient Name:</span></td>
             <td>
-                <asp:TextBox ID="TextBox1" Enabled="false" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="TextBox1" Enabled="false" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td>
                 <span>Joining Date:</span></td>
             <td>
-                <asp:TextBox ID="TextBox2" Enabled="false" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="TextBox2" Enabled="false" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td>
                 <span>Discharge Date:</span></td>
             <td>
-                <asp:TextBox ID="TextBox3" Enabled="false" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="TextBox3" Enabled="false" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
             <td></td>

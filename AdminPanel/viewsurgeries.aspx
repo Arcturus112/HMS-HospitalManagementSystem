@@ -13,7 +13,7 @@
                 <span><span>Doctor Name :</span> </span>
             </td>
             <td>
-                <asp:DropDownList ID="doctorddl" runat="server" AutoPostBack="True" OnSelectedIndexChanged="doctorddl_SelectedIndexChanged">
+                <asp:DropDownList ID="doctorddl" runat="server"  CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="doctorddl_SelectedIndexChanged">
                 </asp:DropDownList>
             </td>
         </tr>
