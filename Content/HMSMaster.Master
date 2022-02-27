@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HMSMaster.master.cs" Inherits="HMS_HospitalManagementSystem_.Content.HMSMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="Fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Nunito:ital,wght@1,706;1,800;1,1000&display=swap" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" style="font-family: 'Bad Script', cursive; font-family: 'Nunito', sans-serif; font-size: xx-large">HMS(Hospital Management System)</a>
+                    <asp:HyperLink runat="server" NavigateUrl="~/AdminPanel/home.aspx" Text="Home" CssClass="nav-link active"></asp:HyperLink>
+                    <asp:Button ID="Button1" runat="server" Text="Logout" CssClass="btn btn-outline-info" OnClick="Button1_Click"/>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="cphMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <footer class="navbar-light bg-light p-3 fixed-bottom u-footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    Bansil H. Sheladiya
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
