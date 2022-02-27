@@ -6,9 +6,7 @@
     <h1 class="d-flex justify-content-center">
         <asp:Label ID="Label1" runat="server" Text="Underling........"></asp:Label>
     </h1>
-    <asp:Menu ID="Menu1" runat="server" Font-Names="Modern" Font-Size="14pt" ForeColor="Red"
-        Height="80px" Style="z-index: 104; left: 96px; position: absolute; top: 336px"
-        Width="136px">
+    <asp:Menu ID="Menu1" runat="server">
         <Items>
             <asp:MenuItem NavigateUrl="~/AdminPanel/laborataries.aspx" Text="Labtechnicians" Value="Labtechnicians"></asp:MenuItem>
             <asp:MenuItem NavigateUrl="~/AdminPanel/pharmacy.aspx" Text="Pharmacy" Value="Pharmacy"></asp:MenuItem>
