@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'HMSFRT'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8A0E2AF4124945D88CE6EC47159ADD55 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_46E3C4A494A14BFAAE6DF5A174FDC71A }}
           package: .
